@@ -1,8 +1,9 @@
 /* IMPOSTAZIONI GENERALI */
 body {
-  width: 500px;
+  width: 450px;
   font-family: "Poppins", sans-serif;
   background-image: url(/assets/img/sfondo.png);
+  background-position: center;
   margin: 0 auto;
 }
 
@@ -45,10 +46,6 @@ nav a {
   font-size: 20px;
   line-height: 0;
 }
-
-
-
-
 
 /* MAIN */
 
@@ -107,6 +104,18 @@ article h1 {
 .p7 {
   font-size: 25px;
   font-weight: 200;
+}
+
+.p8 {
+  margin-top: 2px;
+  margin-left: 30px;
+}
+
+.p9 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 230px;
 }
 
 article li {
@@ -210,15 +219,33 @@ button {
   background-color: #2b62ca;
   height: 40px;
   text-decoration: none; 
-   
+   scroll-behavior: ;
 }
 
 /* ELEMENTI NELL' ASIDE */
 
 aside h2 { 
+  font-family: ;
   font-size: 30px;
   text-align: center;
   padding: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
+
+aside div {
+  background-color: rgba(211, 211, 211, 0.793);
+  padding-top: 30px;
+  padding-bottom: 50px; 
+  margin-bottom: 30px;
+}
+
+aside a {
+  padding: 30px;
+  line-height: 1;
+  font-weight: 600;
+  color: #0097ca;
+}
+
 
 /* FOOTER */
