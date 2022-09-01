@@ -3,7 +3,6 @@ body {
   width: 500px;
   font-family: "Poppins", sans-serif;
   background-image: url(/assets/img/sfondo.png);
-  
   margin: 0 auto;
 }
 
@@ -12,7 +11,7 @@ body header {
 }
 /* HEADER */
 header {
-  background-color: rgb(32, 110, 124);
+  background-color: #007487;
   text-align: center;
   color: white;
 }
@@ -81,13 +80,13 @@ article h1 {
 }
 
 .p2 > strong {
-  color: rgb(153, 0, 161);
+  color: #ac1c6b;
   font-weight: 500;
 }
 
 .p3, .p5, .p6{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .p4 {
@@ -96,14 +95,20 @@ article h1 {
 }
 
 .p4 > strong {
-  color: rgb(153, 0, 161);
+  color: #ac1c6b;
   font-weight: 500;
 }
 
 .p6 a {
-  color: rgb(0, 166, 192);
+  color: #00a5c9;
   font-weight: 500;
 }
+
+.p7 {
+  font-size: 25px;
+  font-weight: 200;
+}
+
 article li {
   line-height: 1.5;
   margin-left: 50px;
@@ -166,7 +171,45 @@ th {
 padding: 5px;
 line-height: 2.5;
 }
+
 /* FORM */
+
+section {
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background: lightgray;
+}
+section h2 {
+  font-size: 30px;
+}
+
+form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  font-size: 25px;
+  border: none;
+  border-bottom: 1px dashed grey;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #2b62ca;
+  height: 40px;
+  text-decoration: none;
+}
+
+
 
 /* ELEMENTI NELL' ASIDE */
 
