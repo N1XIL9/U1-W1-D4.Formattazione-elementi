@@ -70,10 +70,6 @@ article h1 {
   margin-bottom: 20px;
 }
 
-.mr {
-  text-transform: uppercase;
-}
-
 .p1 {
   color: grey;
   line-height: 1;
@@ -84,9 +80,24 @@ article h1 {
  line-height: 1.5;
 }
 
-.p3 {
+.p2 > strong {
+  color: rgb(153, 0, 161);
+  font-weight: 500;
+}
+
+.p3, .p5{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.p4 {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.p4 > strong {
+  color: rgb(153, 0, 161);
+  font-weight: 500;
 }
 
 article li {
