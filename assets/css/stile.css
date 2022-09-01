@@ -115,7 +115,7 @@ article h1 {
   font-weight: 400;
   font-size: 15px;
   margin-top: 30px;
-  margin-left: 230px;
+  margin-left: 220px;
 }
 
 article li {
@@ -247,5 +247,10 @@ aside a {
   color: #0097ca;
 }
 
+.fa-calendar {
+  font-size: 20px;
+  margin-right: 3px;
+}
 
 /* FOOTER */
+
