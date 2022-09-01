@@ -198,19 +198,27 @@ input {
   font-size: 25px;
   border: none;
   border-bottom: 1px dashed grey;
+  margin: 0;
+  padding: 0;
 }
 
 button {
   font-size: 20px;
   font-weight: 600;
   color: white;
+  border: none;
   background-color: #2b62ca;
   height: 40px;
-  text-decoration: none;
+  text-decoration: none; 
+   
 }
 
-
-
 /* ELEMENTI NELL' ASIDE */
+
+aside h2 { 
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
 
 /* FOOTER */
