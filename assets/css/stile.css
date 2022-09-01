@@ -159,6 +159,8 @@ table {
   text-align: center;
 }
 
+table th { width: TOTpx; }
+
 tr th {
   border-right: 0.3px solid rgba(255, 255, 255, 0.187) ;
 } 
@@ -205,7 +207,7 @@ form {
 input {
   width: 250px;
   height: 40px;
-  font-size: 25px;
+  font-size: 20px;
   border: none;
   border-bottom: 1px dashed grey;
   margin: 0;
@@ -214,7 +216,7 @@ input {
 
 button {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bolder;
   color: white;
   border: none;
   background-color: #2b62ca;
